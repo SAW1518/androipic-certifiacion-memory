@@ -1,0 +1,4 @@
+- [User profile](user_profile.md) — prepara certificación Claude Certified Architect – Foundations; escribe en español informal.
+- [Project context](project_context.md) — carpeta de apuntes/prep del examen, migrada desde Cursor a Claude Code.
+- [Project structure](project_structure.md) — estructura de cursos y progreso actual (Claude Code ✅, Claude 101 ✅, Building with Claude API 8/85).
+- [Exam guide reference](exam_guide_ref.md) — PDF oficial del examen en la carpeta del proyecto.
