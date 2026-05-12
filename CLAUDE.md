@@ -55,6 +55,7 @@ Todo el material vive dentro de `androipic certifiacion/` (sí, el nombre del di
 - Cada archivo de curso empieza con metadatos: fuente, relevancia para el examen, estado/progreso.
 - Las lecciones llevan ✅ cuando están completadas.
 - Cuando se complete una nueva lección del curso de API, actualizar **dos sitios**: la sección correspondiente de `Building_with_the_Claude_API.md` y la línea `Progreso:` de arriba.
+- **Formato de las lecciones extraídas con `extract-skilljar-course`:** notas **sintetizadas en español**, NO transcripciones verbatim de los subtítulos. Los SRTs descargados se usan como **fuente** para producir notas estructuradas con secciones (Resumen, Conceptos clave, Código, Takeaway, etc.) en el mismo estilo que las lecciones 1–25 ya documentadas. El skill avisa explícitamente de no pegar subtítulos textuales (copyright del curso) — **respetar esa regla** salvo que el usuario pida lo contrario en una sesión específica.
 
 ## Entorno para los notebooks
 

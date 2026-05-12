@@ -2,28 +2,27 @@
 
 > Archivo corto con el "dónde vamos". Claude (y yo) lo leemos al arrancar cada sesión. Actualizarlo al terminar cambios significativos.
 
-**Última actualización:** 2026-04-22
+**Última actualización:** 2026-05-12
 
 ---
 
 ## Qué pasó en la última sesión
 
-- Migración del proyecto desde Cursor a Claude Code.
-- Setup completo del repo: `CLAUDE.md`, `.gitignore`, `.env.example`, skill `extract-skilljar-course`, memoria persistente en `.claude/memory/`.
-- Instalado y probado Playwright MCP.
-- Extraídas lecciones 9–25 del curso *Building with the Claude API* a `Building_with_the_Claude_API.md` usando el skill.
-- Creado `00_Plan_de_estudio.md` con hoja de ruta completa del examen.
+- Reconfigurado Playwright MCP para usar **Brave** (`--executable-path`) en la Mac actual (no había Chrome instalado).
+- Extraídas y sintetizadas lecciones **26–51** del curso *Building with the Claude API* en `Building_with_the_Claude_API.md` usando el skill `extract-skilljar-course`.
+  - 24 videos procesados + 2 quizzes (sin video) marcados.
+  - Cubre: Prompt engineering techniques (26-30), Tool use con Claude (31-43), RAG y Agentic Search (44-50), Extended thinking (51).
 
 ## Dónde quedé
 
-- **Curso *Building with the Claude API*:** 25/85 lecciones completadas (29%). **Siguiente lección pendiente: 26 — "Being specific"** (sección *Prompt engineering techniques*).
+- **Curso *Building with the Claude API*:** **51/85 lecciones completadas (60%)**. **Siguiente lección pendiente: 52 — "Image support"** (sección *Features of Claude*).
 - **Cursos ✅ completados en Skilljar:** Claude 101, Claude Cowork, Claude Code in Action, AI Fluency: Framework & Foundations, Introduction to agent skills, Introduction to subagents.
 - **Cursos relevantes pendientes:** Claude Code 101, Introduction to MCP, MCP: Advanced Topics.
 
 ## Qué hacer la próxima sesión
 
-1. Continuar el curso *Building with the Claude API* desde la lección 26.
-2. Cuando se acumulen lecciones completadas (p. ej. 5–10 más), invocar el skill `extract-skilljar-course` para documentarlas en `Building_with_the_Claude_API.md`.
+1. Continuar el curso *Building with the Claude API* desde la lección 52 ("Image support") — quedan 8 lecciones de Features of Claude + módulos de MCP, Anthropic apps y Agents/Workflows.
+2. Cuando se acumulen lecciones completadas, invocar el skill `extract-skilljar-course` para documentarlas.
 3. Alternativa: empezar con *Introduction to Model Context Protocol* (dominio 2 del examen, 18%).
 
 ## Gaps conocidos (opcional, cuando haya tiempo)
