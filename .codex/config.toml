@@ -1,0 +1,8 @@
+[mcp_servers.playwright]
+args = [
+    "-y",
+    "@playwright/mcp@latest",
+    "--executable-path",
+    "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+]
+command = "npx"
